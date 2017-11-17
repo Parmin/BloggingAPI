@@ -1,0 +1,21 @@
+{
+  "name": "blogginginterface",
+  "version": "1.0.0",
+  "description": "NodeJS application to provide REST APIs for a blogging interface",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongojs": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
